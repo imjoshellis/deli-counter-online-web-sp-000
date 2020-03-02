@@ -22,5 +22,6 @@ def now_serving(people)
     puts "There is nobody waiting to be served!"
     return
   end
+  puts "Currently serving #{people.first}."
   people.shift
 end
