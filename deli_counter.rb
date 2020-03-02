@@ -11,3 +11,7 @@ def line(people)
   end
   puts line_return.join(' ')
 end
+
+def take_a_number(people, name)
+  people << name
+end
