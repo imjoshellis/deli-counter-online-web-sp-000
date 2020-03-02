@@ -5,7 +5,7 @@ def line(people)
     puts "The line is currently empty."
     return
   end
-  line_return = []"The line is currently:"]
+  line_return = ["The line is currently:"]
   people.each_with_index do |name, idx|
     line_return << "#{idx+1} #{name}"
   end
