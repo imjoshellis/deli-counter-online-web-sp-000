@@ -2,7 +2,7 @@ require 'pry'
 
 def line(people)
   if people.size == 0
-  puts "The line is currently empty." 
+  puts "The line is currently empty."
   return
 end
   puts "The line is currently: "
