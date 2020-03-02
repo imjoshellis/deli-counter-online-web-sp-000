@@ -7,7 +7,7 @@ def line(people)
   end
   line_return = ["The line is currently:"]
   people.each_with_index do |name, idx|
-    line_return << "#{idx+1} #{name}"
+    line_return << "#{idx+1}. #{name}"
   end
   puts line_return.join(' ')
 end
