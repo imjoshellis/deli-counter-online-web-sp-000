@@ -6,7 +6,7 @@ def line(people)
     return
   end
   puts "The line is currently: "
-  people.each_with_index do |name, idx| 
-    puts "#{idx+1} #{name}" 
+  people.each_with_index do |name, idx|
+    puts "#{idx+1} #{name}"
   end
 end
