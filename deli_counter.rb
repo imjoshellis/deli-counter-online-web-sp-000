@@ -19,7 +19,7 @@ end
 
 def now_serving(people)
   if people.size == 0
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
     return
   end
 end
